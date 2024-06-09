@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung Mama Zerin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Warung Mama Zerin</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu-makanan">Menu Makanan</a></li>
+                <li><a href="#menu-minuman">Menu Minuman</a></li>
+                <li><a href="#purchase">Pembelian Online</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu-makanan" class="section">
+        <h2>Menu Makanan</h2>
+        <div class="menu-items">
+            <div class="menu-item" id="makanan">
+                <h3>Makanan</h3>
+                <ul>
+                    <li>Nasi Goreng</li>
+                    <li>Mie Goreng</li>
+                    <li>Mie Rebus</li>
+                    <li>Mihun Goreng</li>
+                    <li>Mienas</li>
+                    <li>Nasi Goreng Hijau</li>
+                    <li>Ayam Penyet</li>
+                </ul>
+                <img src="makanan.jpg" alt="Makanan">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu-minuman" class="section">
+        <h2>Menu Minuman</h2>
+        <div class="menu-items">
+            <div class="menu-item" id="minuman">
+                <h3>Minuman</h3>
+                <ul>
+                    <li>Susu Dingin</li>
+                    <li>Hot Chocolate</li>
+                    <li>Teh</li>
+                    <li>Es Teh</li>
+                    <li>Kopi Ginseng</li>
+                </ul>
+                <img src="minuman.jpg" alt="Minuman">
+            </div>
+        </div>
+    </section>
+
+    <section id="purchase" class="section">
+        <h2>Pembelian Online</h2>
+        <form id="purchase-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="order">Pesanan:</label>
+            <textarea id="order" name="order" required></textarea>
+
+            <button type="submit">Pesan Sekarang</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Warung Mama Zerin</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
